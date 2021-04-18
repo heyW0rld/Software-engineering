@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(lab1)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(lab1 main.cpp factories/abstract/FactoryFarniture.cpp factories/abstract/FactoryFarniture.h products/abstract/Sofa.cpp products/abstract/Sofa.h products/abstract/Chair.cpp products/abstract/Chair.h factories/concrete/FactoryFarniturePremium.cpp factories/concrete/FactoryFarniturePremium.h factories/concrete/FactoryFarnitureEconom.cpp factories/concrete/FactoryFarnitureEconom.h builders/abstract/BuilderSofa.cpp builders/abstract/BuilderSofa.h builders/concrete/BuilderSofaEconom.cpp builders/concrete/BuilderSofaEconom.h products/concrete/SofaEconom.cpp products/concrete/SofaEconom.h builders/concrete/BuilderSofaPremium.cpp builders/concrete/BuilderSofaPremium.h products/concrete/SofaPremium.cpp products/concrete/SofaPremium.h products/concrete/ChairEconom.cpp products/concrete/ChairEconom.h builders/abstract/BuilderChair.cpp builders/abstract/BuilderChair.h builders/concrete/BuilderChairEconom.cpp builders/concrete/BuilderChairEconom.h builders/concrete/BuilderChairPremium.cpp builders/concrete/BuilderChairPremium.h products/concrete/ChairPremium.cpp products/concrete/ChairPremium.h)
